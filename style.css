@@ -157,7 +157,6 @@ article p {
 }
 
 .author {
-    margin: auto;
-    display: block;
+    margin: auto 10px auto 10px;
 }
 
