@@ -170,7 +170,7 @@ article p {
 
 
 
-@media (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
     .article-content {
         flex-direction: column; /* Change to column layout */
         align-items: flex-start; /* Align items to start */
@@ -186,6 +186,15 @@ article p {
     }
 
     article {
-    width: 90% !important;
+        width: 90% !important;
     }
+}
+
+/* This additional media query targets landscape mode specifically */
+@media only screen and (max-width: 1000px) and (orientation: landscape) {
+    /* Optional landscape-specific styles can go here */
+    .article-content {
+        flex-direction: column; /* You can adjust this if you want a different layout */
+    }
+}
 }
