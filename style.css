@@ -168,3 +168,20 @@ article p {
     margin-left: 10px; /* Optional: Add some space between the text and image */
 }
 
+
+
+@media (max-width: 768px) {
+    .article-content {
+        flex-direction: column; /* Change to column layout */
+        align-items: flex-start; /* Align items to start */
+    }
+
+    .article-content img {
+        width: 100%; /* Make the image responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .excerpt {
+        margin-top: 10px; /* Optional: Add some space between the image and excerpt */
+    }
+}
