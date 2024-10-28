@@ -172,17 +172,17 @@ article p {
 
 @media (max-width: 1000px) {
     .article-content {
-        flex-direction: column !important; /* Change to column layout */
-        align-items: flex-start !important; /* Align items to start */
+        flex-direction: column; /* Change to column layout */
+        align-items: flex-start; /* Align items to start */
     }
 
     .article-content img {
-        width: 100% !important; /* Make the image responsive */
-        height: auto !important; /* Maintain aspect ratio */
+        width: 100%; /* Make the image responsive */
+        height: auto; /* Maintain aspect ratio */
     }
 
     .excerpt {
-        margin-top: 10px !important; /* Optional: Add some space between the image and excerpt */
+        margin-top: 10px; /* Optional: Add some space between the image and excerpt */
     }
 
     article {
