@@ -113,7 +113,9 @@ article p {
     font-size: 20px;
     margin: 10px 0;
     text-align: justify;
+    align-items: center;
 }
+
 
 .row {
   display: flex;
@@ -154,5 +156,15 @@ article p {
 
 .excerpt {
     flex: 1;
+}
+
+
+.post-info {
+    display: flex; /* Use flexbox for vertical centering */
+    align-items: center; /* Center items vertically */
+}
+
+.post-info img {
+    margin-left: 10px; /* Optional: Add some space between the text and image */
 }
 
