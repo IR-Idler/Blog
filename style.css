@@ -170,7 +170,7 @@ article p {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .article-content {
         flex-direction: column; /* Change to column layout */
         align-items: flex-start; /* Align items to start */
