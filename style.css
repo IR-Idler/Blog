@@ -132,9 +132,6 @@ article p {
   margin-top: 8px;
   vertical-align: middle;
 }
-.tags {
-    font-size: 20px;
-}
 
 .article-content {
     display: flex;
